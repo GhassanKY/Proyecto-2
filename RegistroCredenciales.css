@@ -44,11 +44,12 @@ i {
     margin-left: 10px;
 }
 
-.bottonRegistro{
+.bottonRegistro {
     display: flex;
     justify-content: center;
     margin-top: 70px
 }
+
 .claseBoton {
     width: 120px;
     height: 50px;
@@ -58,4 +59,23 @@ i {
     background-color: var(--Seccundario);
     color: var(--Primario);
     cursor: pointer;
+}
+.claseBotonINC {
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: Lobster;
+    font-size: 20px;
+    background-color: var(--Seccundario);
+    color: var(--Primario);
+    cursor: pointer;
+}
+.registradoTXT {
+    text-align: center;
+    font-family: Lato;
+}
+a:-webkit-any-link {
+    color: var(--Seccundario);
+    cursor: pointer;
+    text-decoration: none;
 }

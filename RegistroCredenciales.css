@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lobster&display=swap');
+
+:root {
+    --Primario: #F5E4D7;
+    --Seccundario: #E62F5B;
+    --Terciario: #CCB4B9;
+}
+
+body {
+    background: url(https://fondosmil.com/fondo/497.png);
+}
+
+.tituloPrincipal {
+    font-family: Lobster;
+    color: var(--Seccundario);
+}
+
+.primaryBox {
+    display: flex;
+    justify-content: center;
+}
+
+.firstBox {
+    width: 500px;
+    height: 700px;
+    border-radius: 10px;
+    margin-top: 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--Primario);
+}
+
+.inputDIV>input {
+    margin-top: 70px;
+    width: 250px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Lato;
+}
+
+i {
+    margin-left: 10px;
+}
+
+.bottonRegistro{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px
+}
+.claseBoton {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    font-family: Lobster;
+    font-size: 20px;
+    background-color: var(--Seccundario);
+    color: var(--Primario);
+    cursor: pointer;
+}
